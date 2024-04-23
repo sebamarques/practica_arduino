@@ -1,6 +1,6 @@
 int led = 6;  
 int entrada = 4;    
-int val = 0;      
+int vala = 0;      
 
 void setup() {
   pinMode(led, OUTPUT);  
@@ -9,6 +9,6 @@ void setup() {
 
 void loop() {
   val = digitalRead(entrada);   
-  digitalWrite(led, val); 
-  Serial.println(val);
+  digitalWrite(led, vala); 
+  Serial.println(vala);
   }
