@@ -17,7 +17,7 @@ void setup() {
 void loop() {
   valor_interruptor = digitalRead(interruptor);
   //boton para activar el reloj de ajedrez
-  while(valor_interruptor== LOW){
+  while(valor_interruptor == LOW){
     valor_boton1 = digitalRead(boton1);
     valor_boton2 = digitalRead(boton2);
     while(valor_boton1==LOW){
